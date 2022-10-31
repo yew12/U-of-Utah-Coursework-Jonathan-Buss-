@@ -1,0 +1,49 @@
+﻿```
+Authors:    Jonathan Gage Buss & Sanjay Gounder
+Partner:    Sanjay Gounder, Jonathan Gage Buss
+Date:       4-April-2022
+Course:     CS 3500, University of Utah, School of Computing
+GitHub ID:  yew12 & sanjaygounder
+Repo:       https://github.com/Utah-School-of-Computing-de-St-Germain/assignment-seven---chatting-gounder-buss.git
+Commit #:   ed0b09f9a9f17db8a647ea44ea0c9bc4aa25e856
+Project:    ChatClient
+Copyright:  CS 3500, Jonathan Gage Buss and Sanjay Gounder - This work may not be copied for use in Academic Coursework.
+```
+
+# Comments to Evaluators:
+
+Coordinating the connection between the ChatClient GUI and the ChatServer GUI via the Networking.cs class
+was very confusing and took us lots of time to understand the functionalities of Send() and 
+ClientAwaitMessagesAsync(). Once we figured out how these two methods help us connect between server and
+client the assignment felt more managable. We created one non-API specific method which needed to be 
+accessed outside the Networking class called isConnectedCheck. We figured this was a useful method
+for essentially checking if the client had a connection established and would then return true or false.
+
+# Assignment Specific Topics
+
+This GUI allows a 'client', or 'user', to connect to a server and send messages which should be displayed
+in other ChatClientGUIs utilized by other 'users'. Graders will notice in the onMessage callback we have
+multiple checks for specific strings, such as 'Command Participants','Server Down', and 'Command name'. With
+these checks we would do certain actions such as, for example, getting the list of participants which we then
+add to the listbox above the 'Retrieve Participants' button. We have documented our code to explain these
+actions taken and why.
+
+# Consulted Peers: 
+
+Consulted several TA's and other members in the CADE lab that are in the same class about how they 
+approached the assignment. 
+
+# References:
+	1. Stack Overflow 
+		"Add/Delete text from Listbox"
+		- https://stackoverflow.com/questions/46898313/add-and-delete-text-to-from-listbox-hosted-in-winform-using-c-sharp
+
+	2. Microsoft Documentation
+		"Form.Close() method"
+		- https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.close?view=windowsdesktop-6.0
+	
+	3. Youtube
+		"How to fix blurry Windows Forms Windows in high-dpi settings | C# Winforms"
+		- https://www.youtube.com/watch?v=-pmER189dWQ
+
+

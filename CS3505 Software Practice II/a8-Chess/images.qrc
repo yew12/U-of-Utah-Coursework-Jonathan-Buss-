@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/pieces">
+        <file>pieces/rook-white.png</file>
+        <file>pieces/rook-black.png</file>
+        <file>pieces/queen-white.png</file>
+        <file>pieces/queen-black.png</file>
+        <file>pieces/pawn-white.png</file>
+        <file>pieces/pawn-black.png</file>
+        <file>pieces/knight-white.png</file>
+        <file>pieces/knight-black.png</file>
+        <file>pieces/king-white.png</file>
+        <file>pieces/king-black.png</file>
+        <file>pieces/bishop-white.png</file>
+        <file>pieces/bishop-black.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>pieces/sounds/background.mp3</file>
+    </qresource>
+</RCC>

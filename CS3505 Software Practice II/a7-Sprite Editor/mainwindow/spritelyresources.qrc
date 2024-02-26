@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/">
+    <file>Icons/fill.png</file>
+    <file>Icons/export.png</file>
+    <file>Icons/save.png</file>
+    <file>Icons/load.png</file>
+    <file>Icons/frame.png</file>
+    <file>Icons/invert.png</file>
+    <file>Icons/clear.png</file>
+    <file>Icons/color.png</file>
+</qresource>
+</RCC>
+
